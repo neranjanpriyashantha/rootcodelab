@@ -13,9 +13,7 @@ export default function Home() {
                 <div style={{width:'80%'}}>
                     <Body />
                 </div>
-
             </div>
-
         </div>
     )
 }
