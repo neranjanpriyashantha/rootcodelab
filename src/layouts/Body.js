@@ -15,7 +15,7 @@ export default function () {
     }, []);
     return (
         <div>
-            <NavigationBar  />
+            <NavigationBar data />
             <div style={{display:'flex',flexDirection:'row',flexWrap:'wrap'}}>{
                 issetdata ? (data.map((val) => {
                     return <ProductCard key={val.id} cardData={val} />
