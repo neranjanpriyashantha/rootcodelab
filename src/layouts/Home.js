@@ -10,7 +10,6 @@ export default function Home() {
                 <div style={{width: '20%' }}>
                     <SideBar />
                 </div>
-
                 <div style={{width:'80%'}}>
                     <Body />
                 </div>
